@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM alpine:edge
+FROM $BUILD_FROM
 
 # Add env
 ENV LANG=C.UTF-8
