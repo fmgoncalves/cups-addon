@@ -65,6 +65,8 @@ WebInterface Yes
 DefaultAuthType None
 JobSheets none,none
 PreserveJobHistory No
+
+ServerAlias *
 EOL
 
 # Create a symlink from the default config location to our persistent location
